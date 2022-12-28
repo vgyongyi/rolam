@@ -1,0 +1,75 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  line-height: 1.5;
+}
+body {
+  width: 100%;
+  background: url('assets/17545.jpg') no-repeat center;
+  background-size: ivory;
+  color: #333;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-card {
+    width: 90%
+    max-width: calc(100vw - 10px);
+  }
+
+img {
+    width: 140px;
+    height: auto;
+    border-radius: 30%;
+    padding: 1px;
+    background-color: #666;
+    filter: grayscale(80%);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .headline{
+    text-align:center;
+  }
+
+  img:hover {
+    transform: scale(1.1);
+     filter: grayscale(30%);
+  }
+
+  .tan{
+    text-decoration: underline;
+  }
+
+  h1 {
+    font-family:"Comic Sans MS"; 
+   }
+
+   ol {
+    list-style-type: circle;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  
+  li {
+    display: inline;
+  }
+  
+  p {
+    text-align:justify; 
+    margin-top:30 px; 
+  
+    line-height:150%;
+  }
+  
+
+  .right {
+    float: right;
+  }
+    
